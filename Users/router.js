@@ -2,15 +2,15 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('')
 })
 
 router.post('/', (req, res) => {
-  res.send('Got a POST request')
+  res.send('')
 })
 
-router.delete('/user', (req, res) => {
-  res.send('Got a DELETE request at /user')
+router.delete('/', (req, res) => {
+  res.send('')
 })
 
 module.exports = router
